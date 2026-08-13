@@ -7,8 +7,6 @@ frases sueltas para ver qué mide realmente la similitud coseno.
 
 La primera corrida llama a la API. La segunda es instantánea: los vectores
 quedan en cache/ con llave SHA-256.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import sys

@@ -10,11 +10,6 @@ El corpus es la documentación de una academia ficticia, el **Instituto Nébula*
 Es ficticia a propósito: así ningún modelo puede saber las respuestas de
 memoria, y todo lo que responda bien tiene que haberlo leído del corpus.
 
-> **¿Vas a dar tú la clase?** Este README es para el alumnado. Lo que se dice en
-> voz alta, con tiempos y pausas checkpoint por checkpoint, está en
-> **[GUION.md](GUION.md)**. Los scripts no llevan esa narración adentro a
-> propósito: en pantalla se lee código.
-
 ---
 
 ## Antes de la clase (haz esto hoy, no el día del vivo)
@@ -265,7 +260,6 @@ verdad: cambiar algo y tener una forma de saber si lo mejoró o lo empeoró.
 
 ```
 app.py           el programa principal: pregunta lo que quieras
-GUION.md         el guion de la clase, con tiempos (para quien la imparte)
 corpus/          14 documentos del Instituto Nébula (.md, .txt, .pdf)
 rag/             el pipeline: carga, embeddings, índice, generación
 checkpoints/     los siete scripts de la clase + golden.json

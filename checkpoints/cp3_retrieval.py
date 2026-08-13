@@ -5,8 +5,6 @@
 Miramos qué recupera el sistema antes de dejar que un modelo escriba nada. Si
 generamos primero, cuando la respuesta salga mal no vamos a poder distinguir si
 el modelo alucinó o si nunca le llegó la información.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import sys

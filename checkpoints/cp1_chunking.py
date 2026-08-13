@@ -5,8 +5,6 @@
 
 Parte los 14 documentos en chunks de 500/80, muestra la distribución por
 formato y cuatro chunks completos elegidos para la clase.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import statistics

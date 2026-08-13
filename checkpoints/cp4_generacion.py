@@ -4,8 +4,6 @@
 
 La misma pregunta sin RAG y con RAG, e imprime el prompt completo antes de
 mandarlo. Un RAG es concatenar strings; aquí se ve.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import sys

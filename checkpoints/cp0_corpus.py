@@ -4,8 +4,6 @@
     
 Imprime, por archivo: formato, tamaño y los primeros 300 caracteres del texto
 EXTRAÍDO. En los PDF eso no es lo mismo que el archivo en disco.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import sys

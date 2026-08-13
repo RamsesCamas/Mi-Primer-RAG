@@ -9,8 +9,6 @@
 
 Todos los números que imprime se calculan en el momento. No hay nada
 hardcodeado: si cambias el corpus, cambian los números.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import sys

@@ -12,8 +12,6 @@ todo con la biblioteca estándar sobre el pipeline que ya construimos.
 
 Es superficial a propósito. Si lo implementamos a mano en pocas líneas, se
 entiende qué hacen por dentro las herramientas de verdad.
-
-Lo que hay que decir en voz alta está en GUION.md, no aquí.
 """
 
 import json

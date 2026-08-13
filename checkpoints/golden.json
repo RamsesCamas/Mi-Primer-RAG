@@ -1,0 +1,67 @@
+{
+  "_comentario": [
+    "Conjunto de pruebas fijas del RAG del Instituto Nébula.",
+    "",
+    "Cada caso NO compara la respuesta completa palabra por palabra: eso sería",
+    "frágil, porque el modelo redacta distinto cada vez aunque temperature=0.",
+    "Lo que se verifica son 2 o 3 CADENAS CLAVE que la respuesta debe contener:",
+    "cifras, códigos, nombres y fechas. Eso sí es estable.",
+    "",
+    "Antes de comparar, tanto la respuesta como las cadenas se normalizan:",
+    "minúsculas, sin acentos y sin separadores de miles. Así '$4,850 MXN',",
+    "'4850 pesos' y '4.850' cuentan todas como acierto.",
+    "",
+    "El último caso es distinto a propósito: su respuesta NO está en el corpus",
+    "y la prueba pasa cuando el sistema NO responde."
+  ],
+  "casos": [
+    {
+      "id": "cuota-inscripcion",
+      "pregunta": "¿Cuál es el monto de la cuota de inscripción del Instituto Nébula?",
+      "debe_contener": ["4850"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "inicio-cohorte",
+      "pregunta": "¿En qué fecha inicia la cohorte del periodo 2026-B?",
+      "debe_contener": ["9 de septiembre", "2026"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "colegiatura-mensual",
+      "pregunta": "¿De cuánto es el monto de colegiatura mensual?",
+      "debe_contener": ["3200"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "costo-total",
+      "pregunta": "¿Cuál es el costo total del periodo?",
+      "debe_contener": ["11250"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "calificacion-minima",
+      "pregunta": "¿Cuál es la calificación mínima aprobatoria de los cursos?",
+      "debe_contener": ["7.0"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "instructora-nbl204",
+      "pregunta": "¿Quién imparte el curso NBL-204?",
+      "debe_contener": ["renata solis"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "tarjeta-grafica",
+      "pregunta": "¿Los cursos requieren tarjeta gráfica dedicada?",
+      "debe_contener": ["no"],
+      "abstencion_esperada": false
+    },
+    {
+      "id": "fuera-de-dominio",
+      "pregunta": "¿Cuál es la capital de Mongolia?",
+      "debe_contener": [],
+      "abstencion_esperada": true
+    }
+  ]
+}

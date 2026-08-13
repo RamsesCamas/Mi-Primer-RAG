@@ -1,0 +1,10 @@
+# Dependencias SOLO para regenerar el corpus.
+#
+# Si eres alumno o alumna de la clase, NO necesitas instalar esto: los tres PDF
+# del corpus ya vienen en el repositorio.
+#
+# Esto se usa únicamente para correr herramientas/generar_corpus.py.
+
+-r requirements.txt
+
+reportlab>=4.4.0

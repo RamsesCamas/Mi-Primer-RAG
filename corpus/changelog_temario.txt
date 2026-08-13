@@ -1,0 +1,21 @@
+CHANGELOG TEMARIO - PROGRAMA DE ESPECIALIZACION EN INGENIERIA DE IA
+Instituto Nebula. Una linea por cambio aprobado por el comite de temario.
+Formato: FECHA | CLAVE | CAMBIO
+
+2026-07-15 | NBL-204 | Se agrega sesion 14 sobre validacion de respuestas y abstencion
+2026-07-15 | NBL-204 | Se fusionan las antiguas sesiones 9 y 10 en una sola de recuperacion lexica
+2026-07-15 | NBL-231 | Se pospone el modulo de herramientas externas al periodo 2027-A
+2026-07-15 | NBL-240 | Cambio de horario a jueves por traslape con NBL-231
+2026-04-15 | NBL-204 | Se sustituye la practica 3 por una de fusion de rankings
+2026-04-15 | NBL-118 | Se agrega tema de reduccion de dimensionalidad a la sesion 6
+2026-04-15 | NBL-101 | Sin cambios este periodo
+2026-01-20 | NBL-204 | Se eleva la calificacion minima aprobatoria de 6.0 a 7.0
+2026-01-20 | NBL-204 | Se agrega NBL-118 como prerrequisito obligatorio
+2026-01-20 | NBL-231 | Se crea el curso, primera imparticion en 2026-B
+2025-10-08 | NBL-204 | Se amplia de 12 a 16 sesiones
+2025-10-08 | NBL-204 | Se agrega el proyecto final con 40% de la evaluacion
+2025-10-08 | NBL-240 | Se renombra de "Puesta en Produccion" a "Despliegue de Sistemas de IA"
+2025-07-02 | NBL-118 | Se crea el curso
+2025-07-02 | NBL-101 | Se actualiza a Python 3.10 como version minima
+2025-03-11 | NBL-204 | Se crea el curso con clave provisional NBL-2XX
+2025-03-11 | NBL-204 | Se asigna clave definitiva NBL-204

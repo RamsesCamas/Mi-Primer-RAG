@@ -1,0 +1,32 @@
+# Dependencias de la clase "Tu primer RAG" — Instituto Nébula
+# Versiones verificadas contra la documentación oficial el 12 de agosto de 2026.
+# Se fijan mínimos (>=), no versiones exactas.
+
+# Segmentación de documentos
+langchain-text-splitters>=1.1.2
+
+# Embeddings (Gemini).
+# OJO: es google-genai, NO google-generativeai. El paquete viejo tiene otra API
+# por completo y es el error más común al copiar tutoriales de 2024-2025.
+google-genai>=2.17.0
+
+# Almacén vectorial
+chromadb>=1.5.9
+
+# Generación (Groq)
+groq>=1.6.0
+
+# Recuperación léxica
+rank-bm25>=0.2.2
+
+# Lectura de PDF.
+# OJO: es pypdf, NO PyPDF2. PyPDF2 está deprecado por su propio autor en favor
+# de pypdf. Si ves PyPDF2 en un tutorial, ese tutorial está viejo.
+pypdf>=6.15.0
+
+# Lectura del .env
+python-dotenv>=1.2.2
+
+# Normalización de los vectores (obligatoria con gemini-embedding-001 en
+# cualquier dimensión distinta de 3072)
+numpy>=2.0.0

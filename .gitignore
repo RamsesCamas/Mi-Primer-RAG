@@ -1,0 +1,23 @@
+# Claves. Nunca, jamás, por ningún motivo.
+.env
+
+# Entorno virtual
+.venv/
+venv/
+
+# Caché de embeddings: se regenera sola en la primera corrida
+cache/
+
+# Salida de trabajo de Manim: fragmentos parciales, cachés de texto y los
+# renders en borrador. Son cientos de archivos y se regeneran solos.
+# Los seis videos finales sí van al repo, en videos/renderizados/
+videos/media/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

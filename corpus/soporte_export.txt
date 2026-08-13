@@ -1,0 +1,53 @@
+EXPORT CANAL #soporte-alumnos - Instituto Nebula - rango 2026-03-14 a 2026-03-21
+Generado automaticamente. No editar a mano.
+
+[2026-03-14 10:22] Alumno: buenas, no me deja activar el entorno virtual en windows
+[2026-03-14 10:22] Alumno: me sale que la ejecucion de scripts esta deshabilitada
+[2026-03-14 10:25] Soporte: hola, eso es la politica de ejecucion de PowerShell
+[2026-03-14 10:25] Soporte: corre Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass y vuelve a activar
+[2026-03-14 10:31] Alumno: listo, funciono, gracias
+[2026-03-14 11:04] Alumno: una pregunta, el NBL-204 pide GPU?
+[2026-03-14 11:06] Soporte: no, ningun curso del programa pide GPU dedicada
+[2026-03-14 11:06] Soporte: todo corre en CPU o contra servicios remotos
+[2026-03-14 11:07] Alumno: perfecto porque mi laptop no tiene
+[2026-03-14 14:48] Alumno: cual es el monto de la cuota de recuperacion del examen
+[2026-03-14 14:52] Soporte: viene en el tabulador del periodo, te paso el pdf
+[2026-03-14 14:52] Soporte: [archivo adjunto: tabulador_precios.pdf]
+[2026-03-14 14:53] Alumno: gracias
+[2026-03-15 09:12] Alumno: se puede diferir el registro a la cohorte siguiente?
+[2026-03-15 09:20] Soporte: solo en casos de fuerza mayor con dictamen de Coordinacion Academica
+[2026-03-15 09:21] Soporte: si es por otra razon aplica la politica de reembolsos normal
+[2026-03-15 09:22] Alumno: ok voy a leerla
+[2026-03-15 16:40] Alumno: cuantas asesorias vienen incluidas
+[2026-03-15 16:41] Soporte: dos de 30 minutos con la persona instructora del curso
+[2026-03-15 16:41] Soporte: se agendan con 48 horas de anticipacion minimo
+[2026-03-16 08:03] Alumno: no me llego el acuse del tramite de reembolso
+[2026-03-16 08:15] Soporte: revisa spam, el acuse es automatico y trae folio
+[2026-03-16 08:15] Soporte: si en 24h no llega me pasas tu matricula y lo reviso
+[2026-03-16 08:44] Alumno: ya aparecio, estaba en promociones
+[2026-03-16 12:10] Alumno: el NBL-118 es obligatorio antes del NBL-204?
+[2026-03-16 12:14] Soporte: si, o presentas el examen de acreditacion equivalente
+[2026-03-16 12:15] Alumno: y donde se agenda ese examen
+[2026-03-16 12:18] Soporte: en el campus, seccion Tramites, opcion Acreditacion
+[2026-03-17 10:55] Alumno: las sesiones se graban?
+[2026-03-17 10:56] Soporte: si, quedan en el campus dentro de las 24h siguientes
+[2026-03-17 11:30] Alumno: hay descuento si somos varios de la misma empresa
+[2026-03-17 11:35] Soporte: si son tres o mas personas hay 10% sobre el total
+[2026-03-17 11:35] Soporte: pero no se acumula con el descuento de egresado
+[2026-03-17 11:36] Alumno: entendido
+[2026-03-18 09:41] Alumno: pip me instala en el python del sistema
+[2026-03-18 09:43] Soporte: no activaste el entorno virtual, revisa que veas .venv en tu prompt
+[2026-03-18 15:22] Alumno: quien imparte el NBL-204 este periodo
+[2026-03-18 15:24] Soporte: Renata Solis, tambien lleva NBL-231
+[2026-03-19 08:30] Alumno: cual es la calificacion minima aprobatoria
+[2026-03-19 08:33] Soporte: 7.0 en todos los cursos del tronco
+[2026-03-19 08:33] Soporte: si no la alcanzas puedes presentar recuperacion con la cuota correspondiente
+[2026-03-19 17:02] Alumno: se puede pagar en efectivo en las instalaciones
+[2026-03-19 17:05] Soporte: no, solo transferencia, tarjeta o pago referenciado
+[2026-03-19 17:05] Soporte: y nunca a cuentas personales del personal docente
+[2026-03-20 11:11] Alumno: cuando inicia la cohorte del periodo 2026-B
+[2026-03-20 11:13] Soporte: el 9 de septiembre de 2026, las inscripciones cierran el 4 de septiembre
+[2026-03-20 11:14] Alumno: gracias, ya me registre
+[2026-03-21 09:00] Soporte: recordatorio general: instalen las bibliotecas antes de la sesion 1
+[2026-03-21 09:00] Soporte: la instalacion tarda entre 2 y 5 minutos, no la dejen para el dia
+FIN DEL EXPORT
